@@ -1185,8 +1185,6 @@ img {
     background-color: var(--bg-color);
 }
 
-.garanty__inner {}
-
 .garanty__title {
     margin: 0;
     font-style: normal;
@@ -1274,8 +1272,7 @@ img {
     padding-top: 150px;
 }
 
-.question__inner{
-}
+
 
 .question__title {
     margin: 0;
