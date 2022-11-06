@@ -2169,19 +2169,323 @@ img {
     }
 }
 
+/* =========================================== */
+
+.business {
+    padding: 77px 0 67px;
+    background-color: var(--bg-color);
+}
+
+.business__inner {
+    background-image: url('../images/business-bg.png');
+    background-repeat: no-repeat;
+    background-size: 541px 483px;
+    background-position: right;
+}
+
+.business__content {
+    width: 100%;
+    max-width: 535px;
+    padding-bottom: 75px;
+}
+
+.text-box-business {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 0 24px;
+}
+
+.business__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149%;
+    letter-spacing: -0.03em;
+    color: var(--text-color);
+}
+
+.business__text {
+    margin: 0 0 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    color: var(--text-color);
+}
+
+.business-form {
+    width: 100%;
+    max-width: 460px;
+    margin-bottom: 25px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+    padding: 8px 8px 8px 27px;
+}
+
+.business__label {
+    display: flex;
+    /* width: 100%;
+    max-width: 470px; */
+    color: var(--text-color);
+}
+
+.business__input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.business__btn {
+    padding: 25px 24px;
+    background-color: #02897A;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    color: #FFF;
+    cursor: pointer;
+    transition: all .2s ease;
+    margin-left: auto;
+}
+
+.business__btn:hover {
+    background-color: transparent;
+    border: 1px solid #BCD0E5;
+    color: #22343D;
+}
+
+.others {
+    display: flex;
+    align-items: center;
+}
+
+.others__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color);
+    margin-left: 9px;
+}
+
+.count {
+    color: #02897A;
+}
+
+@media only screen and (max-width:576px) {
+    .business {
+        padding: 50px 0 46px;
+    }
+
+    .business__inner {
+        padding-bottom: 350px;
+        background-image: url('../images/business-bg-mobile.png');
+        background-size: 360px 264px;
+        background-position: bottom center;
+    }
+
+    .business__content {
+        width: 100%;
+        max-width: 535px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .text-box-business {
+        margin: 0 0 16px;
+        margin: 0 auto;
+    }
+
+    .business__title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 149%;
+    }
+
+    .business__text {
+        text-align: center;
+        line-height: 171%;
+    }
+
+}
+
+@media only screen and (max-width:396px) {
+    .business__title {
+        font-size: 30px;
+    }
+}
+
+/* ========================================== */
+
+.stories {
+    /* padding: 0 0 160px; */
+    background-color: var(--bg-color);
+}
+
+.stories__title {
+    margin: 0 0 8px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.stories__text {
+    margin: 0 0 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--text-color);
+}
 
 
+.stories-list {
+    flex-wrap: wrap;
+}
+
+.stories-item {
+    margin-bottom: 35px;
+}
+
+.stories__link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--text-color);
+}
+
+.stories__link::after {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background-image: url('../icons/circle_right.svg');
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
 
 
+/* ====================================================== */
 
+.contacts {
+    padding: 180px 0 60px;
+    background-color: var(--bg-color);
+}
 
+.contacts__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.contacts__title {
+    margin: 0 0 27px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+}
 
+.text-box-contacts {
+    width: 100%;
+    max-width: 312px;
+}
 
+.contacts__text {
+    margin: 0 0 65px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+}
 
+.socisal__inner-contacts {
+    margin: 0 0 65px;
+}
 
+.mapbox {
+    width: 100%;
+    max-width: 871px;
+}
 
+.map {
+    width: 100%;
+    height: 323px;
+    margin-bottom: 60px;
+}
 
+.contactsform {
+    width: 100%;
+    max-width: 868px;
+    background-color: var(--bg-color-pricing);
+    padding: 52px 50px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+}
+
+.contactsform__title {
+    margin: 0 0 45px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.contactsform__input {
+    padding: 19px 15px 19px 20px;
+    margin-bottom: 45px;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #22343D;
+}
+
+.contactsform__input:focus {
+    outline: 2px solid #02897A;
+}
+
+.contactsform__textarea {
+    padding: 25px 20px;
+    border: 1px solid #E8E8E8;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #22343D;
+    resize: none;
+}
+
+@media only screen and (max-width:576px) {
+
+    .contacts {
+        padding: 60px 0;
+    }
+}
 
 
 
@@ -2228,5 +2532,13 @@ only screen and (min-resolution: 2dppx) {
 
     .work__item:nth-child(3) {
         background-image: url('../images/mac3@2x.png');
+    }
+
+    .business__inner {
+        background-image: url('../images/business-bg@2x.png');
+    }
+
+    .business__inner {
+        background-image: url('../images/business-bg-mobile@2x.png');
     }
 }
